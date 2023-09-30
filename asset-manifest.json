@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/balurathod/my-react-app/static/css/main.073c9b0a.css",
+    "main.js": "/balurathod/my-react-app/static/js/main.1eb2ce0a.js",
+    "static/js/787.bc7d429a.chunk.js": "/balurathod/my-react-app/static/js/787.bc7d429a.chunk.js",
+    "index.html": "/balurathod/my-react-app/index.html",
+    "main.073c9b0a.css.map": "/balurathod/my-react-app/static/css/main.073c9b0a.css.map",
+    "main.1eb2ce0a.js.map": "/balurathod/my-react-app/static/js/main.1eb2ce0a.js.map",
+    "787.bc7d429a.chunk.js.map": "/balurathod/my-react-app/static/js/787.bc7d429a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1eb2ce0a.js"
+  ]
+}
