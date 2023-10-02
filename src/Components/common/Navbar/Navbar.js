@@ -1,5 +1,5 @@
 import React from 'react'
-//import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 
 /**
 * @author
@@ -11,7 +11,7 @@ export default function Navbar(props) {
   return(
     <nav className="navbar navbar-expand-lg bg-body-tertiary bg-primary-subtle border border-primary-subtle rounded-3">
         <div className="container-fluid">
-        <a class="navbar-brand" href="/">{props.title}</a>
+        <a className="navbar-brand" href="/">{props.title}</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -32,10 +32,21 @@ export default function Navbar(props) {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
+                  {props.service}
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/">
+                  {props.entryForm}
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/">
                   {props.aboutText}
                 </a>
               </li>
-              <li className="nav-item dropdown">
+
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="/"
@@ -45,7 +56,7 @@ export default function Navbar(props) {
                 >
                   Dropdown
                 </a>                
-              </li>              
+              </li>               */}
             </ul>
             <form className="d-flex" role="search">
               <input
@@ -65,6 +76,6 @@ export default function Navbar(props) {
 
  }
 
- // Navbar.propTypes = {title: PropTypes.string.isRequired, aboutText: PropTypes.string}
+ Navbar.propTypes = {title: PropTypes.string, aboutText: PropTypes.string}
 
- Navbar.defaultProps = {title: "TextUtils here", aboutText: "About Text here"}
+ //Navbar.defaultProps = {title: "TextUtils here", aboutText: "About Text here"}
