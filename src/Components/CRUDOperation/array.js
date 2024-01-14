@@ -2,19 +2,25 @@
 const array = [
     {
         id:'1', 
-        Name:'Shivansh',
-        Age:'23'
+        Name:'Ajinkya',
+        Age:'2'
     },
     {
         id:'2', 
-        Name:'Simran',
-        Age:'22'
+        Name:'Balu',
+        Age:'28'
     },
     {
         id:'3',
-        Name:'Aakash',
-        Age:'23'
+        Name:'Tanuj',
+        Age:'4'
+    },
+    {
+        id:'4',
+        Name:'Sudha',
+        Age:'22'
     }
+
 ]
   
 export default array
